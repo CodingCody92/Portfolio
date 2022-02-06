@@ -2131,6 +2131,18 @@ progress {
   -webkit-overflow-scrolling: touch;
 }
 
+.email {
+  text-decoration: none;
+  color: rgb(58, 85, 238);
+  transition: all .3s ease-in;
+}
+
+.email:hover {
+  color: rgb(19, 189, 219);
+  text-decoration: underline;
+  transform: translateY(-10px);
+}
+
 @media (max-width: 575.98px) {
   .table-responsive-sm {
     overflow-x: auto;
